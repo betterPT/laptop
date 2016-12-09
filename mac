@@ -120,14 +120,12 @@ brew "hub"
 # Image manipulation
 brew "imagemagick"
 
-# Testing
-brew "qt"
-
 # Programming languages
 brew "libyaml" # should come after openssl
 brew "node"
 brew "rbenv"
 brew "ruby-build"
+brew "go"
 
 # Databases
 brew "postgres", restart_service: true
