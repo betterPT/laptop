@@ -1,7 +1,7 @@
 echo "Installing Essential Applications with Cask..."
 brew cask install google-chrome virtualbox vagrant macvim iterm2 dropbox droplr intellij-community sequel-pro alfred
 
-
+# Quicklook Plugins
 brew cask install qlcolorcode
 brew cask install qlstephen
 brew cask install qlmarkdown
@@ -10,7 +10,6 @@ brew cask install quicklook-csv
 
 # Core Functionality
 fancy_echo "Install Core Apps ..."
---appdir="/Applications"
 brew cask install --appdir="/Applications" macvim
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" dropbox
@@ -22,7 +21,10 @@ brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" flycut
 brew cask install --appdir="/Applications" paw
 brew cask install --appdir="/Applications" 1password
-
+brew cask install --appdir="/Applications" avira-antivirus
+brew cask install --appdir="/Applications" backblaze
+brew cask install --appdir="/Applications" backblaze-downloader
+brew cask install --appdir="/Applications" screenhero
 
 # Development
 fancy_echo "Install Dev Apps ..."
@@ -33,6 +35,7 @@ brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
 brew cask install --appdir="/Applications" intellij-community
 brew cask install --appdir="/Applications" atom
+brew cask install --appdir="/Applications" android-studio
 
 # Global Frontend NPM Packages
 fancy_echo "Install Frontend NPM Packages Globally ..."

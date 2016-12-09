@@ -126,6 +126,7 @@ brew "node"
 brew "rbenv"
 brew "ruby-build"
 brew "go"
+brew "python3"
 
 # Databases
 brew "postgres", restart_service: true
