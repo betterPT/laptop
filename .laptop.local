@@ -1,5 +1,4 @@
 echo "Installing Essential Applications with Cask..."
-brew cask install google-chrome virtualbox vagrant macvim iterm2 dropbox droplr intellij-community sequel-pro alfred
 
 # Quicklook Plugins
 brew cask install qlcolorcode
@@ -25,6 +24,9 @@ brew cask install --appdir="/Applications" avira-antivirus
 brew cask install --appdir="/Applications" backblaze
 brew cask install --appdir="/Applications" backblaze-downloader
 brew cask install --appdir="/Applications" screenhero
+brew cask install --appdir="/Applications" sequel-pro
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" spark
 
 # Development
 fancy_echo "Install Dev Apps ..."
@@ -39,7 +41,7 @@ brew cask install --appdir="/Applications" android-studio
 
 # Global Frontend NPM Packages
 fancy_echo "Install Frontend NPM Packages Globally ..."
-npm i -g npm browser-sync grunt gulp node-sass protractor uncss webpack yarn
+npm i -g npm browser-sync grunt gulp webpack yarn watchman react-native-cli
 
 # Link Cask Apps to Alfred
 brew cask alfred link
