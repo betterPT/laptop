@@ -26,6 +26,7 @@ After you login to your machine, please do the following:
 1. [Setup git and Github](https://help.github.com/articles/set-up-git/)
 2. Login to Xcode and/or Android Studio and add your accounts
 3. Configure 1password
+4. Setup backblaze
 
 Extras
 ------
