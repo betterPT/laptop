@@ -26,7 +26,6 @@ brew cask install --appdir="/Applications" backblaze-downloader
 brew cask install --appdir="/Applications" screenhero
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" spark
 
 # Development
 fancy_echo "Install Dev Apps ..."
@@ -35,7 +34,6 @@ brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" intellij-community
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" android-studio
 
