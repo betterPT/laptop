@@ -24,7 +24,7 @@ brew cask install --appdir="/Applications" backblaze
 brew cask install --appdir="/Applications" backblaze-downloader
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" iterm2
-
+brew cask install --appfir="/Applications" postico
 # Development
 fancy_echo "Install Dev Apps ..."
 brew cask install --appdir="/Applications" dash
